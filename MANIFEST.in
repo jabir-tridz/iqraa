@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include iqraa *.css
+recursive-include iqraa *.csv
+recursive-include iqraa *.html
+recursive-include iqraa *.ico
+recursive-include iqraa *.js
+recursive-include iqraa *.json
+recursive-include iqraa *.md
+recursive-include iqraa *.png
+recursive-include iqraa *.py
+recursive-include iqraa *.svg
+recursive-include iqraa *.txt
+recursive-exclude iqraa *.pyc
